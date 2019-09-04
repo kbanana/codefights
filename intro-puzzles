@@ -1,4 +1,9 @@
-#intro puzzle 1
+#intro puzzle 1 - add two variables
 def add(param1, param2)
     param1.to_i + param2.to_i
+end
+
+#intro puzzle 2 - determine the century from a year
+def centuryFromYear(year)
+    century = (year.to_i - 1)/100 + 1
 end
