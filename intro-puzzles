@@ -1,0 +1,4 @@
+#intro puzzle 1
+def add(param1, param2)
+    param1.to_i + param2.to_i
+end
